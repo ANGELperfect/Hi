@@ -135,7 +135,7 @@ a:focus{
 <fieldset> <legend> 
 <b>Commande</b></legend> 
 
-<label for ="entree" >Entrée: </label><br>
+<br><label for ="entree" >Entrée: </label>
 <select name ="entree" id="entree" value="0">
 <option selected value="0">aucune</option>
 <option value="100">soupe</option>
@@ -144,7 +144,7 @@ a:focus{
 </select> 
 <strong>prix: </strong><output name="prixentree" for="entree" >  0</output> DA<br>
 
-<LABEL for ="plat" >Plat</LABEL> <br>
+<br><LABEL for ="plat" >Plat</LABEL> 
 <select name="plat" id="plat" value="0"> 
 <option selected value="0">aucun</option> 
 <option value="350">Couscous</option> 
@@ -152,7 +152,7 @@ a:focus{
 <option value="350">Riz </option>    
 </select>
 <strong>prix:</strong><output name="prixplat" for="plat" >  0</output> DA<br>
-<LABEL for ="dessert" >Dessert</LABEL> <br>
+<br><LABEL for ="dessert" >Dessert</LABEL> 
 <select name="dessert" id="dessert" value="0"> 
 <option selected="selected" value="0">aucun</option> 
 <option value="120">glace  </option> 
@@ -160,8 +160,8 @@ a:focus{
 <option value="180">crepes  </option>    
 </select>
 
-<strong>prix:</strong><output name="prixdessert" for="dessert" >  0</output> DA<br><br>
-<strong> >>> Prix total à payer : </strong>
+<strong>prix:</strong><output name="prixdessert" for="dessert" >  0</output> DA<br>
+<strong> >>> Prix total à payer : </strong><br>
 <output name="prixtotal" for="prixentree prixplat prixdessert" >  0.00</output> DA
 
   
